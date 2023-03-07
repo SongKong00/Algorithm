@@ -1,0 +1,13 @@
+a = input()
+b = input()
+a=int(a)
+b=int(b)
+c =int(a*(b%10)) 
+d =int(a*int((int((b%100))/10))) 
+e =int(a*int((b/100))) 
+f =int(c+(d*10)+(e*100))
+
+print(c)
+print(d)
+print(e)
+print(f)

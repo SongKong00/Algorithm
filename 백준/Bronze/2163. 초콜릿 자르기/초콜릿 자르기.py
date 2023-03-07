@@ -1,0 +1,5 @@
+N, M = input().split()
+N = int(N)
+M = int(M)
+count = (N-1)+(N*(M-1))
+print(count)
